@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@font-face {
+    font-family:'titulo';
+    src: url(RobsTypewriter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'subtitulo';
+    src: url(Fragmentcore.otf);
+}
+
+@font-face {
+    font-family: 'subfrase';
+    src: url(typwrng.ttf);
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url(AniTypewriter.ttf);
+}
+#titulo{
+    text-align: center;
+    font-family:'titulo';
+    font-size: 100px;
+    background-color: rgba(146, 250, 181, 0.966);
+    padding-top: 30px;
+}
+
+.sub{
+    text-align: center;
+    font-family: 'subtitulo';
+    font-size: 30px;
+    background-color:rgba(146, 250, 181, 0.966);
+    border-radius: 0px 0px 3px 3px ;
+    box-shadow: 1px black ;
+
+}
+
+
+.codigo{
+    font-family:'subfrase';
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.dito{
+    font-family:'subtitulo';
+    margin: 20px 20px ;
+    font-size: 40px;
+}
+
+
+.escrito{
+    font-family: 'subtitulo';
+    margin: 50px ;
+    font-size: 30px;
+    line-height: 2.5; /*espaçamento entre linhas */
+}
+
+.jedi{
+    padding: 50px;
+    font-size: 50px;
+     line-height: 2.5;
+   font-family: 'subtitulo';
+    color: rgb(101, 232, 236);
+    background-color: rgba(255, 0, 0, 0.7);
+    background-image: url(jedi-council-g9eu4cpvpaheqcnj.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    
+    
+}
+.jedi span{
+    background-color:rgba(0, 0, 0, 0.5);
+     display: inline-block;
+     border-radius:3px;
+}
+
+.lanterna{
+    padding: 50px;
+    color: rgb(6, 255, 6);
+    font-family: 'subtitulo';
+    font-size: 50px;
+    line-height: 2.5;
+    background-image: url(lanterna-verde-origem-poderes-e-herois-que-adotaram-o-nome.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    
+    
+}
+
+.lanterna span{ 
+    background-color:rgba(2, 27, 6, 0.5) ;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.dito {
+    margin-top: 50px;
+    font-family: 'subfrase';
+    font-size: 20px;
+}
+
+
+.imagem {
+    margin-left: 400px;
+    width: 500px;       
+    height: 300px; 
+    border-radius: 5px;
+}
+
+.fim {
+    margin-top: 50px;
+    font-family: 'subtitulo';
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(146, 250, 181, 0.966);
+}
